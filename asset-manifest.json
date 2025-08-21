@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Elevvo-Front-End-Internship_Personal-Blog-Homepage-Task/static/css/main.04bbf91f.css",
-    "main.js": "/Elevvo-Front-End-Internship_Personal-Blog-Homepage-Task/static/js/main.cd917119.js",
+    "main.css": "/Elevvo-Front-End-Internship_Personal-Blog-Homepage-Task/static/css/main.6d20520d.css",
+    "main.js": "/Elevvo-Front-End-Internship_Personal-Blog-Homepage-Task/static/js/main.14ba3b7a.js",
     "static/js/453.93cdfff4.chunk.js": "/Elevvo-Front-End-Internship_Personal-Blog-Homepage-Task/static/js/453.93cdfff4.chunk.js",
     "index.html": "/Elevvo-Front-End-Internship_Personal-Blog-Homepage-Task/index.html",
-    "main.04bbf91f.css.map": "/Elevvo-Front-End-Internship_Personal-Blog-Homepage-Task/static/css/main.04bbf91f.css.map",
-    "main.cd917119.js.map": "/Elevvo-Front-End-Internship_Personal-Blog-Homepage-Task/static/js/main.cd917119.js.map",
+    "main.6d20520d.css.map": "/Elevvo-Front-End-Internship_Personal-Blog-Homepage-Task/static/css/main.6d20520d.css.map",
+    "main.14ba3b7a.js.map": "/Elevvo-Front-End-Internship_Personal-Blog-Homepage-Task/static/js/main.14ba3b7a.js.map",
     "453.93cdfff4.chunk.js.map": "/Elevvo-Front-End-Internship_Personal-Blog-Homepage-Task/static/js/453.93cdfff4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04bbf91f.css",
-    "static/js/main.cd917119.js"
+    "static/css/main.6d20520d.css",
+    "static/js/main.14ba3b7a.js"
   ]
 }
