@@ -18,7 +18,6 @@ This project demonstrates how to display blog posts in a **card layout**, implem
 - **Search Bar**: Filter posts by title keyword
 - **Pagination**: Limit visible posts per page with **dot navigation**
 - **Footer**: Includes links and copyright information
-- **Responsive Design**: Works on mobile and desktop
 
 ---
 
