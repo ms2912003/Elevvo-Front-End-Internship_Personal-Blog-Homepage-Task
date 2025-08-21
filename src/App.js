@@ -10,7 +10,7 @@ const Post = [
   {
     id: "1",
     title: "Meet Our Family",
-    image: "/1.webp",
+    image: '1.jpg',
     description: "Introducing our lovely family and our journey together.",
     date: "Mar 22, 2025",
     category: "Family",
@@ -18,7 +18,7 @@ const Post = [
   {
     id: "2",
     title: "Trip to Paris",
-    image: "/2.webp",
+    image: "/2.jpg",
     description: "Exploring the beautiful streets of Paris and its culture.",
     date: "Apr 10, 2025",
     category: "Travel",
@@ -26,7 +26,7 @@ const Post = [
   {
     id: "3",
     title: "Delicious Pasta Recipe",
-    image: "/3.webp",
+    image: "/3.jpg",
     description: "Learn how to make a creamy and delicious pasta at home.",
     date: "May 5, 2025",
     category: "Food",
@@ -34,7 +34,7 @@ const Post = [
   {
     id: "4",
     title: "My First Coding Project",
-    image: "/4.webp",
+    image: "/4.jpg",
     description: "Sharing my first project in React and the lessons learned.",
     date: "Jun 15, 2025",
     category: "Tech",
@@ -42,7 +42,7 @@ const Post = [
   {
     id: "5",
     title: "Family Picnic Day",
-    image: "/5.webp",
+    image: "/5.jpg",
     description: "A sunny day out with the whole family enjoying nature.",
     date: "Jul 8, 2025",
     category: "Family",
@@ -50,7 +50,7 @@ const Post = [
   {
     id: "6",
     title: "Backpacking in Thailand",
-    image: "/6.webp",
+    image: "/6.jpg",
     description: "An adventurous backpacking trip in Thailand’s islands.",
     date: "Aug 12, 2025",
     category: "Travel",
@@ -58,7 +58,7 @@ const Post = [
   {
     id: "7",
     title: "5 Easy Breakfast Recipes",
-    image: "/7.webp",
+    image: "/7.jpg",
     description: "Quick and healthy breakfast ideas for busy mornings.",
     date: "Sep 3, 2025",
     category: "Food",
@@ -66,7 +66,7 @@ const Post = [
   {
     id: "8",
     title: "Learning React Hooks",
-    image: "/8.webp",
+    image: "/8.png",
     description: "A beginner’s guide to using hooks in React projects.",
     date: "Sep 15, 2025",
     category: "Tech",
@@ -74,7 +74,7 @@ const Post = [
   {
     id: "9",
     title: "Exploring the Alps",
-    image: "/9.webp",
+    image: "/9.jpg",
     description: "Hiking and sightseeing in the breathtaking Alps.",
     date: "Oct 1, 2025",
     category: "Travel",
@@ -82,7 +82,7 @@ const Post = [
   {
     id: "10",
     title: "Family Movie Night",
-    image: "/10.webp",
+    image: "/10.jpg",
     description: "Sharing our fun movie night traditions with the kids.",
     date: "Oct 12, 2025",
     category: "Family",
@@ -90,7 +90,7 @@ const Post = [
   {
     id: "11",
     title: "Chocolate Cake Recipe",
-    image: "/11.webp",
+    image: "/11.jpg",
     description: "How to bake a rich and moist chocolate cake at home.",
     date: "Nov 5, 2025",
     category: "Food",
@@ -98,7 +98,7 @@ const Post = [
   {
     id: "12",
     title: "Building a Personal Portfolio",
-    image: "/12.webp",
+    image: "/12.jpg",
     description: "Step by step guide to create your own portfolio website.",
     date: "Nov 20, 2025",
     category: "Tech",
@@ -106,7 +106,7 @@ const Post = [
   {
     id: "13",
     title: "Road Trip Across USA",
-    image: "/13.webp",
+    image: "/13.jpg",
     description: "Experiencing the diverse landscapes and cities across the USA.",
     date: "Dec 1, 2025",
     category: "Travel",
@@ -114,7 +114,7 @@ const Post = [
   {
     id: "14",
     title: "Fun Family Games",
-    image: "/14.webp",
+    image: "/14.jpg",
     description: "Indoor and outdoor games that the whole family can enjoy.",
     date: "Dec 10, 2025",
     category: "Family",
@@ -122,7 +122,7 @@ const Post = [
   {
     id: "15",
     title: "5-Minute Healthy Snacks",
-    image: "/15.webp",
+    image: "/15.jpg",
     description: "Quick snacks you can make in under 5 minutes.",
     date: "Dec 18, 2025",
     category: "Food",
@@ -130,7 +130,7 @@ const Post = [
   {
   id: "16",
   title: "Morning Yoga Routine",
-  image: "/16.webp",
+  image: "/16.jpg",
   description: "Start your day energized with this simple morning yoga routine.",
   date: "Jan 5, 2026",
   category: "Health",
@@ -138,17 +138,9 @@ const Post = [
 {
   id: "17",
   title: "Visiting Tokyo",
-  image: "/17.webp",
+  image: "/17.jpg",
   description: "Exploring the vibrant streets, culture, and food of Tokyo, Japan.",
   date: "Jan 20, 2026",
-  category: "Travel",
-},
-{
-  id: "18",
-  title: "Exploring Santorini",
-  image: "/18.webp",
-  description: "Discover the stunning views, sunsets, and culture of Santorini, Greece.",
-  date: "Feb 5, 2026",
   category: "Travel",
 },
 ];
@@ -186,7 +178,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
 
   const [currentPage, setCurrentPage] = useState(1);
-  const postsPerPage = 5;
+  const postsPerPage = 3;
 
   const filteredPosts =
   Post
